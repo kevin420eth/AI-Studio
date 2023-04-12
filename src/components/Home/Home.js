@@ -7,7 +7,7 @@ const Home = () => {
             <div className="text-2xl text-center h-20">
                 <HomeTypewriter />
             </div>
-            <a href='#' className='mt-10 text-2xl rounded-xl px-6 py-1.5 bg-cyan-700 hover:bg-cyan-900'>Enter</a>
+            <a href='#' className='mt-10 text-2xl rounded-xl px-6 py-1.5 bg-cyan-600 hover:bg-cyan-700'>Enter</a>
         </section>
     )
 }
