@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './sidebar.css'
 import { AiFillFormatPainter, AiFillMail } from 'react-icons/ai'
 import { BsFillHouseDoorFill } from 'react-icons/bs'
 import { FaDog, FaTree } from 'react-icons/fa'
@@ -12,7 +11,7 @@ const SideBar = () => {
     const [textbar, setTextBar] = useState('Contact Us')
 
     return (
-        <nav className='bg-slate-900 w-2/12 h-screen pl-3 pr-3 pt-8 flex flex-col gap-4 text-xl relative'>
+        <nav className='bg-slate-900 w-2/12 h-screen pl-3 pr-3 pt-8 flex flex-col gap-4 text-xl fixed'>
             <h1 className='mb-10 pb-4 border-b-2 select-none'>The New World</h1>
             <div className='menu flex flex-col gap-4'>
                 <a className='hover:bg-slate-600 focus:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="#1">
