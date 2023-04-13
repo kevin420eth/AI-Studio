@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './sidebar.css'
-import shopeelogo from '../../assets/shopee_logo.png'
 import { AiFillFormatPainter, AiFillMail } from 'react-icons/ai'
 import { BsFillHouseDoorFill } from 'react-icons/bs'
 import { FaDog, FaTree } from 'react-icons/fa'
@@ -53,7 +52,7 @@ const SideBar = () => {
                     <a href="https://shopee.tw/" className='newsletter__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-4xl' onMouseEnter={() => { setTextBar('Subscribe Newsletter')}} onMouseLeave={()=>{setTextBar('Contact Us')}}>
                         <ImNewspaper />
                     </a>
-                    <a href="https://shopee.tw/" target='_blank' className='shopee__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-4xl' onMouseEnter={() => { setTextBar('Go Shopee')}} onMouseLeave={()=>{setTextBar('Contact Us')}}>
+                    <a href="https://shopee.tw/" target='_blank' rel="noreferrer" className='shopee__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-4xl' onMouseEnter={() => { setTextBar('Go Shopee')}} onMouseLeave={()=>{setTextBar('Contact Us')}}>
                         <MdOutlineAttachMoney />
                     </a>
                 </div>
