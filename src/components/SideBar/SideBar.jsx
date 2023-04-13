@@ -55,7 +55,6 @@ const SideBar = () => {
                     </a>
                 </div>
             </div>
-
         </nav>
     )
 }
