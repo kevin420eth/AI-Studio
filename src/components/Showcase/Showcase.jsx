@@ -6,11 +6,15 @@ import SideBar from '../SideBar/SideBar'
 const Showcase = () => {
     let { artStyle } = useParams()
 
+    if (typeof (artStyle) === 'undefined') {
+        artStyle = 'photography'
+    }
+    
     const styles = ["photography", "painting", "anime", "animal", "landscape", "architecture"]
 
     if (styles.includes(artStyle)) {
-        artStyle=artStyle.charAt(0).toUpperCase()+artStyle.slice(1)
-        
+        artStyle = artStyle.charAt(0).toUpperCase() + artStyle.slice(1)
+
         return (
             <section className='relative'>
                 <SideBar />
@@ -20,7 +24,6 @@ const Showcase = () => {
             </section>
         )
     } else {
-        console.log('ddsds')
         return (
             <div className='text-black'>
                 <h1 className='mb-8'>Page not found</h1>
