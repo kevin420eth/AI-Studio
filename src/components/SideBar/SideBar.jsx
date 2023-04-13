@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { AiFillFormatPainter, AiFillMail } from 'react-icons/ai'
 import { BsFillHouseDoorFill } from 'react-icons/bs'
 import { FaDog, FaTree } from 'react-icons/fa'
-import { GiFox } from 'react-icons/gi'
+import { GiNinjaHead } from 'react-icons/gi'
 import { ImNewspaper } from 'react-icons/im'
 import { MdPhotoCamera, MdOutlineAttachMoney } from 'react-icons/md'
 
@@ -23,7 +23,7 @@ const SideBar = () => {
                     Painting
                 </a>
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="/anime" >
-                    <GiFox />
+                    <GiNinjaHead />
                     Anime
                 </a>
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="animal" >
@@ -44,13 +44,13 @@ const SideBar = () => {
             <div className='absolute bottom-4 translate-x-2/4 right-2/4 w-full text-center'>
                 <h1 className='mb-4'>{textbar}</h1>
                 <div className='flex justify-center items-center gap-4'>
-                    <a href="mailto:kevin23122@gmail.com" className='email__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Email Us')}} onMouseLeave={()=>{setTextBar('Contact Us')}}>
+                    <a href="mailto:kevin23122@gmail.com" className='email__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Email Us') }} onMouseLeave={() => { setTextBar('Contact Us') }}>
                         <AiFillMail />
                     </a>
-                    <a href="https://shopee.tw/" className='newsletter__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Subscribe Newsletter')}} onMouseLeave={()=>{setTextBar('Contact Us')}}>
+                    <a href="https://shopee.tw/" className='newsletter__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Subscribe Newsletter') }} onMouseLeave={() => { setTextBar('Contact Us') }}>
                         <ImNewspaper />
                     </a>
-                    <a href="https://shopee.tw/" target='_blank' rel="noreferrer" className='shopee__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Go Shopee')}} onMouseLeave={()=>{setTextBar('Contact Us')}}>
+                    <a href="https://shopee.tw/" target='_blank' rel="noreferrer" className='shopee__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Go Shopee') }} onMouseLeave={() => { setTextBar('Contact Us') }}>
                         <MdOutlineAttachMoney />
                     </a>
                 </div>
