@@ -25,7 +25,7 @@ import image24 from '../assets/art/painting/24.png'
 import image25 from '../assets/art/painting/25.png'
 import image26 from '../assets/art/painting/26.png'
 import image27 from '../assets/art/painting/27.png'
-// import image28 from '../assets/art/painting/28.png'
+import image28 from '../assets/art/painting/28.png'
 // import image29 from '../assets/art/painting/29.png'
 // import image30 from '../assets/art/painting/30.png'
 // import image31 from '../assets/art/painting/31.png'
@@ -148,10 +148,10 @@ const data = [
         'id':27,
         'image':image27
     },
-    // {
-    //     'id':28,
-    //     'image':image28
-    // },
+    {
+        'id':28,
+        'image':image28
+    },
     // {   
     //     'id':29,
     //     'image':image29
