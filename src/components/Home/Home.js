@@ -3,7 +3,7 @@ import HomeTypewriter from './HomeTypeWritter'
 
 const Home = () => {
     return (
-        <section className='bg-[url("../src/assets/background.jpg")] bg-cover bg-no-repeat min-h-screen pt-20 flex flex-col justify-center items-center'>
+        <section className='bg-[url("../src/assets/materials/background.jpg")] bg-cover bg-no-repeat min-h-screen pt-20 flex flex-col justify-center items-center'>
             <div className="text-2xl text-center h-20">
                 <HomeTypewriter />
             </div>
