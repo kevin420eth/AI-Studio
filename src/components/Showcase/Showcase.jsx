@@ -19,15 +19,15 @@ const Showcase = () => {
     let data = ''
     if (artStyle === 'photography') {
         data = photography_data
-    }else if(artStyle === 'painting'){
+    } else if (artStyle === 'painting') {
         data = painting_data
-    }else if(artStyle === 'anime'){
+    } else if (artStyle === 'anime') {
         data = anime_data
-    }else if(artStyle === 'animal'){
+    } else if (artStyle === 'animal') {
         data = animal_data
-    }else if(artStyle === 'landscape'){
+    } else if (artStyle === 'landscape') {
         data = landscape_data
-    }else if(artStyle === 'architecture'){
+    } else if (artStyle === 'architecture') {
         data = architecture_data
     }
 
@@ -61,19 +61,6 @@ const Showcase = () => {
                     <h1 className='text-4xl mb-10'>{artStyle}</h1>
 
                     <div className='flex gap-4 px-4'>
-                        <div className='showcase__wrapper flex flex-col gap-4'>
-                            {data.slice(0, visibility).map((item) => {
-                                if (item.id % 4 === 0) {
-                                    return (
-                                        <div className='image__wrapper rounded-md overflow-hidden' key={item.id}>{item.name}
-                                            <img src={item.image} alt={`image__${artStyle}`} />
-                                        </div>
-                                    )
-                                } else {
-                                    return ""
-                                }
-                            })}
-                        </div>
 
                         <div className='showcase__wrapper flex flex-col gap-4'>
                             {data.slice(0, visibility).map((item) => {
@@ -113,6 +100,20 @@ const Showcase = () => {
                                     )
                                 } else {
                                     return ''
+                                }
+                            })}
+                        </div>
+
+                        <div className='showcase__wrapper flex flex-col gap-4'>
+                            {data.slice(0, visibility).map((item) => {
+                                if (item.id % 4 === 0) {
+                                    return (
+                                        <div className='image__wrapper rounded-md overflow-hidden' key={item.id}>{item.name}
+                                            <img src={item.image} alt={`image__${artStyle}`} />
+                                        </div>
+                                    )
+                                } else {
+                                    return ""
                                 }
                             })}
                         </div>
