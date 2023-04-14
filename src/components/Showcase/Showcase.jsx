@@ -38,7 +38,7 @@ const Showcase = () => {
         return (
             <section className='relative'>
                 <SideBar />
-                <div className='bg-gradient-to-br from-slate-800 to-slate-900 absolute w-10/12 min-h-screen right-0 text-center pt-4 '>
+                <div className='bg-gradient-to-br from-slate-800 to-slate-900 absolute w-10/12 min-h-screen right-0 text-center pt-4'>
                     <h1 className='text-4xl mb-10'>{artStyle}</h1>
                     {/* <div className="showcase__wrapper grid grid-cols-4 px-4 border-2 gap-4">
                         {items.slice(0, visibility).map((item) => {
