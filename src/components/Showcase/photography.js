@@ -1,171 +1,174 @@
+import image1 from '../../assets/photography/1.png'
+import image2 from '../../assets/photography/2.png'
+
 const items = [
     {   
         'id':1,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':2,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':3,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':4,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':5,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':6,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':7,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':8,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':9,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':10,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':11,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':12,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':13,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':14,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':15,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':16,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':17,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':18,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':19,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':20,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':21,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':22,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':23,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':24,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':25,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':26,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':27,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':28,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':29,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':30,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':31,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':32,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':33,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':34,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':35,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':36,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':37,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':38,
-        'name':'Jenn'
+        'image':image2
     },
     {   
         'id':39,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':40,
-        'name':'Jenn'
+        'image':image2
     },
     {
         'id':41,
-        'name':'Kevin'
+        'image':image1
     },
     {
         'id':42,
-        'name':'Jenn'
+        'image':image2
     }
 ]
 
