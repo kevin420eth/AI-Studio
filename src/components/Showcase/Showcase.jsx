@@ -60,9 +60,9 @@ const Showcase = () => {
                 <div className='bg-gradient-to-br from-slate-800 to-slate-900 absolute w-10/12 min-h-screen right-0 text-center pt-4'>
                     <h1 className='text-4xl mb-10'>{artStyle}</h1>
 
-                    <div className='flex gap-4 px-4 py-4'>
+                    <div className='flex gap-4 px-4 py-4 border-2'>
 
-                        <div className='showcase__wrapper flex flex-col gap-4'>
+                        <div className='showcase__wrapper flex flex-col gap-4 w-3/12'>
                             {data.slice(0, visibility).map((item) => {
                                 if (item.id % 4 === 1) {
                                     return (
@@ -76,7 +76,7 @@ const Showcase = () => {
                             })}
                         </div>
 
-                        <div className='showcase__wrapper flex flex-col gap-4'>
+                        <div className='showcase__wrapper flex flex-col gap-4 w-3/12'>
                             {data.slice(0, visibility).map((item) => {
                                 if (item.id % 4 === 2) {
                                     return (
@@ -90,7 +90,7 @@ const Showcase = () => {
                             })}
                         </div>
 
-                        <div className='showcase__wrapper flex flex-col gap-4'>
+                        <div className='showcase__wrapper flex flex-col gap-4 w-3/12'>
                             {data.slice(0, visibility).map((item) => {
                                 if (item.id % 4 === 3) {
                                     return (
@@ -104,7 +104,7 @@ const Showcase = () => {
                             })}
                         </div>
 
-                        <div className='showcase__wrapper flex flex-col gap-4'>
+                        <div className='showcase__wrapper flex flex-col gap-4 w-3/12'>
                             {data.slice(0, visibility).map((item) => {
                                 if (item.id % 4 === 0) {
                                     return (
