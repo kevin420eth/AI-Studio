@@ -65,17 +65,17 @@ const Showcase = () => {
 
         let artStyleChinese = ''
         if (artStyle === 'photography') {
-            artStyleChinese = '攝影'
+            artStyleChinese = '📷 攝影'
         } else if (artStyle === 'painting') {
-            artStyleChinese = '插畫'
+            artStyleChinese = '🎨 插畫'
         } else if (artStyle === 'anime') {
-            artStyleChinese = '遊戲/動漫'
+            artStyleChinese = '👺 遊戲/動漫'
         } else if (artStyle === 'animal') {
-            artStyleChinese = '動物'
+            artStyleChinese = '🐶 動物'
         } else if (artStyle === 'landscape') {
-            artStyleChinese = '大自然'
+            artStyleChinese = '🌊 大自然'
         } else if (artStyle === 'architecture') {
-            artStyleChinese = '建築'
+            artStyleChinese = '⛩ 建築'
         }
 
         artStyle = artStyle.charAt(0).toUpperCase() + artStyle.slice(1)
