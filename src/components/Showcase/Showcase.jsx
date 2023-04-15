@@ -10,11 +10,12 @@ import animal_data from '../../data/animal'
 import landscape_data from '../../data/landscape'
 import architecture_data from '../../data/architecture'
 
-import { AiFillFormatPainter, AiFillCloseCircle } from 'react-icons/ai'
+import { AiFillFormatPainter, AiFillCloseCircle, AiFillMail } from 'react-icons/ai'
 import { BsFillHouseDoorFill } from 'react-icons/bs'
 import { FaDog, FaTree } from 'react-icons/fa'
 import { GiNinjaHead, GiHamburgerMenu } from 'react-icons/gi'
-import { MdPhotoCamera } from 'react-icons/md'
+import { ImNewspaper } from 'react-icons/im'
+import { MdPhotoCamera, MdOutlineAttachMoney } from 'react-icons/md'
 
 const Showcase = () => {
     let { artStyle } = useParams()
@@ -67,7 +68,11 @@ const Showcase = () => {
                 <SideBar />
 
                 <div className={`${menuVisibility} fixed bg-slate-900/[.8] w-full h-full z-50 flex justify-center`}>
-                    <i className='absolute right-4 top-4 scale-150 cursor-pointer' onClick={()=>{setMenuVisibility('hidden')}}>{<AiFillCloseCircle />}</i>
+                    <i className='absolute right-4 top-4 scale-150 cursor-pointer' onClick={() => {
+                        setMenuVisibility('hidden')
+                    }
+                    }>{<AiFillCloseCircle />}</i>
+
                     <div className='flex flex-col justify-center gap-6'>
                         <a className='flex items-center gap-2 text-2xl' href="/photography">
                             <MdPhotoCamera />
@@ -94,12 +99,29 @@ const Showcase = () => {
                             <BsFillHouseDoorFill />
                             Architecture
                         </a>
+
+                        <hr className='' />
+
+                        <a className='flex items-center gap-2 text-2xl' href="mailto:kevin23122@gmail.com" >
+                            <AiFillMail />
+                            Email Us
+                        </a>
+
+                        <a className='flex items-center gap-2 text-2xl' href="https://shopee.tw/" target='_blank' rel="noreferrer">
+                            <ImNewspaper />
+                            Newsletter
+                        </a>
+
+                        <a className='flex items-center gap-2 text-2xl' href="https://shopee.tw/" target='_blank' rel="noreferrer">
+                            <MdOutlineAttachMoney />
+                            Shopee
+                        </a>
                     </div>
                 </div>
 
                 <div className='bg-gradient-to-br from-slate-800 to-slate-900 w-10/12 desktop:w-full absolute desktop:relative min-h-screen right-0 text-center pt-4'>
 
-                    <i className='invisible absolute right-4 top-4 scale-150 cursor-pointer desktop:visible' onClick={()=>{setMenuVisibility('')}}>{<GiHamburgerMenu />}</i>
+                    <i className='invisible absolute right-4 top-4 scale-150 cursor-pointer desktop:visible' onClick={() => { setMenuVisibility('') }}>{<GiHamburgerMenu />}</i>
 
                     <h1 className='text-4xl small-mobile:text-2xl mb-10'>{artStyle}</h1>
 
