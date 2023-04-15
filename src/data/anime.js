@@ -14,10 +14,10 @@ import image13 from '../assets/art/anime/13.png'
 import image14 from '../assets/art/anime/14.png'
 import image15 from '../assets/art/anime/15.png'
 import image16 from '../assets/art/anime/16.png'
-// import image17 from '../assets/art/anime/17.png'
-// import image18 from '../assets/art/anime/18.png'
-// import image19 from '../assets/art/anime/19.png'
-// import image20 from '../assets/art/anime/20.png'
+import image17 from '../assets/art/anime/17.png'
+import image18 from '../assets/art/anime/18.png'
+import image19 from '../assets/art/anime/19.png'
+import image20 from '../assets/art/anime/20.png'
 // import image21 from '../assets/art/anime/21.png'
 // import image22 from '../assets/art/anime/22.png'
 // import image23 from '../assets/art/anime/23.png'
@@ -104,22 +104,22 @@ const data = [
         'id':16,
         'image':image16
     },
-    // {   
-    //     'id':17,
-    //     'image':image17
-    // },
-    // {
-    //     'id':18,
-    //     'image':image18
-    // },
-    // {   
-    //     'id':19,
-    //     'image':image19
-    // },
-    // {
-    //     'id':20,
-    //     'image':image20
-    // },
+    {   
+        'id':17,
+        'image':image17
+    },
+    {
+        'id':18,
+        'image':image18
+    },
+    {   
+        'id':19,
+        'image':image19
+    },
+    {
+        'id':20,
+        'image':image20
+    },
     // {   
     //     'id':21,
     //     'image':image21

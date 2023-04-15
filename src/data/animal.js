@@ -30,10 +30,10 @@ import image29 from '../assets/art/animal/29.png'
 import image30 from '../assets/art/animal/30.png'
 import image31 from '../assets/art/animal/31.png'
 import image32 from '../assets/art/animal/32.png'
-// import image33 from '../assets/art/animal/33.png'
-// import image34 from '../assets/art/animal/34.png'
-// import image35 from '../assets/art/animal/35.png'
-// import image36 from '../assets/art/animal/36.png'
+import image33 from '../assets/art/animal/33.png'
+import image34 from '../assets/art/animal/34.png'
+import image35 from '../assets/art/animal/35.png'
+import image36 from '../assets/art/animal/36.png'
 // import image37 from '../assets/art/animal/37.png'
 // import image38 from '../assets/art/animal/38.png'
 // import image39 from '../assets/art/animal/39.png'
@@ -168,22 +168,22 @@ const data = [
         'id':32,
         'image':image32
     },
-    // {   
-    //     'id':33,
-    //     'image':image33
-    // },
-    // {
-    //     'id':34,
-    //     'image':image34
-    // },
-    // {   
-    //     'id':35,
-    //     'image':image35
-    // },
-    // {
-    //     'id':36,
-    //     'image':image36
-    // },
+    {   
+        'id':33,
+        'image':image33
+    },
+    {
+        'id':34,
+        'image':image34
+    },
+    {   
+        'id':35,
+        'image':image35
+    },
+    {
+        'id':36,
+        'image':image36
+    },
     // {   
     //     'id':37,
     //     'image':image37

@@ -35,9 +35,26 @@ import image34 from '../assets/art/photography/34.png'
 import image35 from '../assets/art/photography/35.png'
 import image36 from '../assets/art/photography/36.png'
 import image37 from '../assets/art/photography/37.png'
-// import image38 from '../assets/art/photography/38.png'
-// import image39 from '../assets/art/photography/39.png'
-// import image40 from '../assets/art/photography/40.png'
+import image38 from '../assets/art/photography/38.png'
+import image39 from '../assets/art/photography/39.png'
+import image40 from '../assets/art/photography/40.png'
+import image41 from '../assets/art/photography/41.png'
+import image42 from '../assets/art/photography/42.png'
+import image43 from '../assets/art/photography/43.png'
+import image44 from '../assets/art/photography/44.png'
+import image45 from '../assets/art/photography/45.png'
+import image46 from '../assets/art/photography/46.png'
+import image47 from '../assets/art/photography/47.png'
+import image48 from '../assets/art/photography/48.png'
+import image49 from '../assets/art/photography/49.png'
+import image50 from '../assets/art/photography/50.png'
+import image51 from '../assets/art/photography/51.png'
+import image52 from '../assets/art/photography/52.png'
+import image53 from '../assets/art/photography/53.png'
+import image54 from '../assets/art/photography/54.png'
+import image55 from '../assets/art/photography/55.png'
+import image56 from '../assets/art/photography/56.png'
+import image57 from '../assets/art/photography/57.png'
 
 const data = [
     {   
@@ -188,18 +205,86 @@ const data = [
         'id':37,
         'image':image37
     },
-    // {
-    //     'id':38,
-    //     'image':image38
-    // },
-    // {   
-    //     'id':39,
-    //     'image':image39
-    // },
-    // {
-    //     'id':40,
-    //     'image':image40
-    // },
+    {
+        'id':38,
+        'image':image38
+    },
+    {   
+        'id':39,
+        'image':image39
+    },
+    {
+        'id':40,
+        'image':image40
+    },
+    {
+        'id':41,
+        'image':image41
+    },
+    {
+        'id':42,
+        'image':image42
+    },
+    {
+        'id':43,
+        'image':image43
+    },
+    {
+        'id':44,
+        'image':image44
+    },
+    {
+        'id':45,
+        'image':image45
+    },
+    {
+        'id':46,
+        'image':image46
+    },
+    {
+        'id':47,
+        'image':image47
+    },
+    {
+        'id':48,
+        'image':image48
+    },
+    {
+        'id':49,
+        'image':image49
+    },
+    {
+        'id':50,
+        'image':image50
+    },
+    {
+        'id':51,
+        'image':image51
+    },
+    {
+        'id':52,
+        'image':image52
+    },
+    {
+        'id':53,
+        'image':image53
+    },
+    {
+        'id':54,
+        'image':image54
+    },
+    {
+        'id':55,
+        'image':image55
+    },
+    {
+        'id':56,
+        'image':image56
+    },
+    {
+        'id':57,
+        'image':image57
+    },
 ]
 
 export default data

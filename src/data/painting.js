@@ -26,10 +26,10 @@ import image25 from '../assets/art/painting/25.png'
 import image26 from '../assets/art/painting/26.png'
 import image27 from '../assets/art/painting/27.png'
 import image28 from '../assets/art/painting/28.png'
-// import image29 from '../assets/art/painting/29.png'
-// import image30 from '../assets/art/painting/30.png'
-// import image31 from '../assets/art/painting/31.png'
-// import image32 from '../assets/art/painting/32.png'
+import image29 from '../assets/art/painting/29.png'
+import image30 from '../assets/art/painting/30.png'
+import image31 from '../assets/art/painting/31.png'
+import image32 from '../assets/art/painting/32.png'
 // import image33 from '../assets/art/painting/33.png'
 // import image34 from '../assets/art/painting/34.png'
 // import image35 from '../assets/art/painting/35.png'
@@ -152,22 +152,22 @@ const data = [
         'id':28,
         'image':image28
     },
-    // {   
-    //     'id':29,
-    //     'image':image29
-    // },
-    // {
-    //     'id':30,
-    //     'image':image30
-    // },
-    // {   
-    //     'id':31,
-    //     'image':image31
-    // },
-    // {
-    //     'id':32,
-    //     'image':image32
-    // },
+    {   
+        'id':29,
+        'image':image29
+    },
+    {
+        'id':30,
+        'image':image30
+    },
+    {   
+        'id':31,
+        'image':image31
+    },
+    {
+        'id':32,
+        'image':image32
+    },
     // {   
     //     'id':33,
     //     'image':image33

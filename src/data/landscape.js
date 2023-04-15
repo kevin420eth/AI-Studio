@@ -6,14 +6,14 @@ import image5 from '../assets/art/landscape/5.png'
 import image6 from '../assets/art/landscape/6.png'
 import image7 from '../assets/art/landscape/7.png'
 import image8 from '../assets/art/landscape/8.png'
-// import image9 from '../assets/art/landscape/9.png'
-// import image10 from '../assets/art/landscape/10.png'
-// import image11 from '../assets/art/landscape/11.png'
-// import image12 from '../assets/art/landscape/12.png'
-// import image13 from '../assets/art/landscape/13.png'
-// import image14 from '../assets/art/landscape/14.png'
-// import image15 from '../assets/art/landscape/15.png'
-// import image16 from '../assets/art/landscape/16.png'
+import image9 from '../assets/art/landscape/9.png'
+import image10 from '../assets/art/landscape/10.png'
+import image11 from '../assets/art/landscape/11.png'
+import image12 from '../assets/art/landscape/12.png'
+import image13 from '../assets/art/landscape/13.png'
+import image14 from '../assets/art/landscape/14.png'
+import image15 from '../assets/art/landscape/15.png'
+import image16 from '../assets/art/landscape/16.png'
 // import image17 from '../assets/art/landscape/17.png'
 // import image18 from '../assets/art/landscape/18.png'
 // import image19 from '../assets/art/landscape/19.png'
@@ -72,38 +72,38 @@ const data = [
         'id':8,
         'image':image8
     },
-    // {   
-    //     'id':9,
-    //     'image':image9
-    // },
-    // {
-    //     'id':10,
-    //     'image':image10
-    // },
-    // {   
-    //     'id':11,
-    //     'image':image11
-    // },
-    // {
-    //     'id':12,
-    //     'image':image12
-    // },
-    // {   
-    //     'id':13,
-    //     'image':image13
-    // },
-    // {
-    //     'id':14,
-    //     'image':image14
-    // },
-    // {   
-    //     'id':15,
-    //     'image':image15
-    // },
-    // {
-    //     'id':16,
-    //     'image':image16
-    // },
+    {   
+        'id':9,
+        'image':image9
+    },
+    {
+        'id':10,
+        'image':image10
+    },
+    {   
+        'id':11,
+        'image':image11
+    },
+    {
+        'id':12,
+        'image':image12
+    },
+    {   
+        'id':13,
+        'image':image13
+    },
+    {
+        'id':14,
+        'image':image14
+    },
+    {   
+        'id':15,
+        'image':image15
+    },
+    {
+        'id':16,
+        'image':image16
+    },
     // {   
     //     'id':17,
     //     'image':image17
