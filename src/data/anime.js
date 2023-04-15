@@ -18,19 +18,19 @@ import image17 from '../assets/art/anime/17.png'
 import image18 from '../assets/art/anime/18.png'
 import image19 from '../assets/art/anime/19.png'
 import image20 from '../assets/art/anime/20.png'
-// import image21 from '../assets/art/anime/21.png'
-// import image22 from '../assets/art/anime/22.png'
-// import image23 from '../assets/art/anime/23.png'
-// import image24 from '../assets/art/anime/24.png'
-// import image25 from '../assets/art/anime/25.png'
-// import image26 from '../assets/art/anime/26.png'
-// import image27 from '../assets/art/anime/27.png'
-// import image28 from '../assets/art/anime/28.png'
-// import image29 from '../assets/art/anime/29.png'
-// import image30 from '../assets/art/anime/30.png'
-// import image31 from '../assets/art/anime/31.png'
-// import image32 from '../assets/art/anime/32.png'
-// import image33 from '../assets/art/anime/33.png'
+import image21 from '../assets/art/anime/21.png'
+import image22 from '../assets/art/anime/22.png'
+import image23 from '../assets/art/anime/23.png'
+import image24 from '../assets/art/anime/24.png'
+import image25 from '../assets/art/anime/25.png'
+import image26 from '../assets/art/anime/26.png'
+import image27 from '../assets/art/anime/27.png'
+import image28 from '../assets/art/anime/28.png'
+import image29 from '../assets/art/anime/29.png'
+import image30 from '../assets/art/anime/30.png'
+import image31 from '../assets/art/anime/31.png'
+import image32 from '../assets/art/anime/32.png'
+import image33 from '../assets/art/anime/33.png'
 // import image34 from '../assets/art/anime/34.png'
 // import image35 from '../assets/art/anime/35.png'
 // import image36 from '../assets/art/anime/36.png'
@@ -120,58 +120,58 @@ const data = [
         'id':20,
         'image':image20
     },
-    // {   
-    //     'id':21,
-    //     'image':image21
-    // },
-    // {
-    //     'id':22,
-    //     'image':image22
-    // },
-    // {   
-    //     'id':23,
-    //     'image':image23
-    // },
-    // {
-    //     'id':24,
-    //     'image':image24
-    // },
-    // {   
-    //     'id':25,
-    //     'image':image25
-    // },
-    // {
-    //     'id':26,
-    //     'image':image26
-    // },
-    // {   
-    //     'id':27,
-    //     'image':image27
-    // },
-    // {
-    //     'id':28,
-    //     'image':image28
-    // },
-    // {   
-    //     'id':29,
-    //     'image':image29
-    // },
-    // {
-    //     'id':30,
-    //     'image':image30
-    // },
-    // {   
-    //     'id':31,
-    //     'image':image31
-    // },
-    // {
-    //     'id':32,
-    //     'image':image32
-    // },
-    // {   
-    //     'id':33,
-    //     'image':image33
-    // },
+    {   
+        'id':21,
+        'image':image21
+    },
+    {
+        'id':22,
+        'image':image22
+    },
+    {   
+        'id':23,
+        'image':image23
+    },
+    {
+        'id':24,
+        'image':image24
+    },
+    {   
+        'id':25,
+        'image':image25
+    },
+    {
+        'id':26,
+        'image':image26
+    },
+    {   
+        'id':27,
+        'image':image27
+    },
+    {
+        'id':28,
+        'image':image28
+    },
+    {   
+        'id':29,
+        'image':image29
+    },
+    {
+        'id':30,
+        'image':image30
+    },
+    {   
+        'id':31,
+        'image':image31
+    },
+    {
+        'id':32,
+        'image':image32
+    },
+    {   
+        'id':33,
+        'image':image33
+    },
     // {
     //     'id':34,
     //     'image':image34
