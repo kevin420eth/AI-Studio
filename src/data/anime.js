@@ -31,9 +31,9 @@ import image30 from '../assets/art/anime/30.png'
 import image31 from '../assets/art/anime/31.png'
 import image32 from '../assets/art/anime/32.png'
 import image33 from '../assets/art/anime/33.png'
-// import image34 from '../assets/art/anime/34.png'
-// import image35 from '../assets/art/anime/35.png'
-// import image36 from '../assets/art/anime/36.png'
+import image34 from '../assets/art/anime/34.png'
+import image35 from '../assets/art/anime/35.png'
+import image36 from '../assets/art/anime/36.png'
 // import image37 from '../assets/art/anime/37.png'
 // import image38 from '../assets/art/anime/38.png'
 // import image39 from '../assets/art/anime/39.png'
@@ -172,18 +172,18 @@ const data = [
         'id':33,
         'image':image33
     },
-    // {
-    //     'id':34,
-    //     'image':image34
-    // },
-    // {   
-    //     'id':35,
-    //     'image':image35
-    // },
-    // {
-    //     'id':36,
-    //     'image':image36
-    // },
+    {
+        'id':34,
+        'image':image34
+    },
+    {   
+        'id':35,
+        'image':image35
+    },
+    {
+        'id':36,
+        'image':image36
+    },
     // {   
     //     'id':37,
     //     'image':image37
