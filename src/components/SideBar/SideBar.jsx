@@ -8,49 +8,49 @@ import { MdPhotoCamera, MdOutlineAttachMoney } from 'react-icons/md'
 
 
 const SideBar = () => {
-    const [textbar, setTextBar] = useState('Contact Us')
+    const [textbar, setTextBar] = useState('聯絡我們')
 
     return (
         <nav className='bg-slate-900 w-2/12 h-screen pl-3 pr-3 pt-8 flex flex-col gap-4 text-xl fixed desktop:hidden'>
-            <h1 className='mb-10 pb-4 border-b-2 select-none'>The New World</h1>
+            <h1 className='mb-10 pb-4 border-b-2 select-none leading-8'>新世界 <br/>A.I. 工作室</h1>
             <div className='menu flex flex-col gap-4'>
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="/photography">
                     <MdPhotoCamera />
-                    Photography
+                    攝影
                 </a>
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="/painting" >
                     <AiFillFormatPainter />
-                    Painting
+                    插畫
                 </a>
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="/anime" >
                     <GiNinjaHead />
-                    Anime
+                    遊戲/動漫
                 </a>
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="animal" >
                     <FaDog />
-                    Animal
+                    動物
                 </a>
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="/landscape" >
                     <FaTree />
-                    LandScape
+                    大自然
                 </a>
 
                 <a className='hover:bg-slate-600 w-11/12 rounded-lg px-2 py-2 flex items-center gap-2' href="/architecture" >
                     <BsFillHouseDoorFill />
-                    Architecture
+                    建築
                 </a>
             </div>
 
             <div className='absolute bottom-4 translate-x-2/4 right-2/4 w-full text-center'>
                 <h1 className='mb-4'>{textbar}</h1>
                 <div className='flex justify-center items-center gap-4'>
-                    <a href="mailto:kevin23122@gmail.com" className='email__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Email Us') }} onMouseLeave={() => { setTextBar('Contact Us') }}>
+                    <a href="mailto:kevin23122@gmail.com" className='email__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('電子郵件') }} onMouseLeave={() => { setTextBar('聯絡我們') }}>
                         <AiFillMail />
                     </a>
-                    <a href="https://shopee.tw/" className='newsletter__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Subscribe Newsletter') }} onMouseLeave={() => { setTextBar('Contact Us') }}>
+                    <a href="https://shopee.tw/" className='newsletter__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('訂閱電子報') }} onMouseLeave={() => { setTextBar('聯絡我們') }}>
                         <ImNewspaper />
                     </a>
-                    <a href="https://shopee.tw/" target='_blank' rel="noreferrer" className='shopee__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('Go Shopee') }} onMouseLeave={() => { setTextBar('Contact Us') }}>
+                    <a href="https://shopee.tw/" target='_blank' rel="noreferrer" className='shopee__link hover:bg-slate-600 border-2 px-2 py-2 rounded-2xl text-3xl' onMouseEnter={() => { setTextBar('蝦皮賣場') }} onMouseLeave={() => { setTextBar('聯絡我們') }}>
                         <MdOutlineAttachMoney />
                     </a>
                 </div>

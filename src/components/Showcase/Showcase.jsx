@@ -62,6 +62,22 @@ const Showcase = () => {
     const [menuVisibility, setMenuVisibility] = useState('hidden')
 
     if (styles.includes(artStyle)) {
+
+        let artStyleChinese = ''
+        if (artStyle === 'photography') {
+            artStyleChinese = '攝影'
+        } else if (artStyle === 'painting') {
+            artStyleChinese = '插畫'
+        } else if (artStyle === 'anime') {
+            artStyleChinese = '遊戲/動漫'
+        } else if (artStyle === 'animal') {
+            artStyleChinese = '動物'
+        } else if (artStyle === 'landscape') {
+            artStyleChinese = '大自然'
+        } else if (artStyle === 'architecture') {
+            artStyleChinese = '建築'
+        }
+
         artStyle = artStyle.charAt(0).toUpperCase() + artStyle.slice(1)
         return (
             <section className='relative'>
@@ -76,45 +92,45 @@ const Showcase = () => {
                     <div className='flex flex-col justify-center gap-6'>
                         <a className='flex items-center gap-2 text-2xl' href="/photography">
                             <MdPhotoCamera />
-                            Photography
+                            攝影
                         </a>
                         <a className='flex items-center gap-2 text-2xl' href="/painting" >
                             <AiFillFormatPainter />
-                            Painting
+                            插畫
                         </a>
                         <a className='flex items-center gap-2 text-2xl' href="/anime" >
                             <GiNinjaHead />
-                            Anime
+                            遊戲/動漫
                         </a>
                         <a className='flex items-center gap-2 text-2xl' href="animal" >
                             <FaDog />
-                            Animal
+                            動物
                         </a>
                         <a className='flex items-center gap-2 text-2xl' href="/landscape" >
                             <FaTree />
-                            LandScape
+                            大自然
                         </a>
 
                         <a className='flex items-center gap-2 text-2xl' href="/architecture" >
                             <BsFillHouseDoorFill />
-                            Architecture
+                            建築
                         </a>
 
                         <hr className='' />
 
                         <a className='flex items-center gap-2 text-2xl' href="mailto:kevin23122@gmail.com" >
                             <AiFillMail />
-                            Email Us
+                            電子郵件
                         </a>
 
                         <a className='flex items-center gap-2 text-2xl' href="https://shopee.tw/" target='_blank' rel="noreferrer">
                             <ImNewspaper />
-                            Newsletter
+                            訂閱電子報
                         </a>
 
                         <a className='flex items-center gap-2 text-2xl' href="https://shopee.tw/" target='_blank' rel="noreferrer">
                             <MdOutlineAttachMoney />
-                            Shopee
+                            蝦皮賣場
                         </a>
                     </div>
                 </div>
@@ -123,7 +139,7 @@ const Showcase = () => {
 
                     <i className='invisible absolute right-4 top-4 scale-150 cursor-pointer desktop:visible' onClick={() => { setMenuVisibility('') }}>{<GiHamburgerMenu />}</i>
 
-                    <h1 className='text-4xl small-mobile:text-2xl mb-10'>{artStyle}</h1>
+                    <h1 className='text-4xl small-mobile:text-2xl mb-10'>{artStyleChinese}</h1>
 
                     <div className='flex gap-4 px-4 py-4'>
 
