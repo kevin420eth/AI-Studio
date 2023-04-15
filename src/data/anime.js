@@ -34,10 +34,10 @@ import image33 from '../assets/art/anime/33.png'
 import image34 from '../assets/art/anime/34.png'
 import image35 from '../assets/art/anime/35.png'
 import image36 from '../assets/art/anime/36.png'
-// import image37 from '../assets/art/anime/37.png'
-// import image38 from '../assets/art/anime/38.png'
-// import image39 from '../assets/art/anime/39.png'
-// import image40 from '../assets/art/anime/40.png'
+import image37 from '../assets/art/anime/37.png'
+import image38 from '../assets/art/anime/38.png'
+import image39 from '../assets/art/anime/39.png'
+import image40 from '../assets/art/anime/40.png'
 
 const data = [
     {   
@@ -184,22 +184,22 @@ const data = [
         'id':36,
         'image':image36
     },
-    // {   
-    //     'id':37,
-    //     'image':image37
-    // },
-    // {
-    //     'id':38,
-    //     'image':image38
-    // },
-    // {   
-    //     'id':39,
-    //     'image':image39
-    // },
-    // {
-    //     'id':40,
-    //     'image':image40
-    // },
+    {   
+        'id':37,
+        'image':image37
+    },
+    {
+        'id':38,
+        'image':image38
+    },
+    {   
+        'id':39,
+        'image':image39
+    },
+    {
+        'id':40,
+        'image':image40
+    },
 ]
 
 export default data
